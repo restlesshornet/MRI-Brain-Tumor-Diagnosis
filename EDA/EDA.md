@@ -1,22 +1,9 @@
-﻿**EDA on Brain Tumor detection using Machine Learning**
+__**EDA on Brain Tumor detection using Machine Learning**__
 
 
 **Train Test Split:**
 
 In the field of machine learning and computer vision, the accurate division of datasets into training and testing sets is crucial for developing robust and reliable models. This process involves randomly allocating a portion of the available data for training the model, while reserving another portion for evaluating its performance. 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
