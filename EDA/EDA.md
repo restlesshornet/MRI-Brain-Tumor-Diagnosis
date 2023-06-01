@@ -1,7 +1,7 @@
-__**EDA on Brain Tumor detection using Machine Learning**__
+<u><h1>EDA on Brain Tumor detection using Machine Learning</h1></u>
 
 
-**Train Test Split:**
+<u><h2>Train Test Split:</h2></u>
 
 In the field of machine learning and computer vision, the accurate division of datasets into training and testing sets is crucial for developing robust and reliable models. This process involves randomly allocating a portion of the available data for training the model, while reserving another portion for evaluating its performance. 
 
@@ -9,7 +9,7 @@ In the field of machine learning and computer vision, the accurate division of d
 
 The pie chart presented above provides a clear visual representation of the dataset division into two distinct sets: the training set and the testing set. The chart demonstrates that the dataset has been divided in a ratio of 90:10, with the training set occupying approximately 90% of the chart and the testing set occupying the remaining 10%. This graphical representation offers a concise overview of the dataset composition and highlights the significance of each set in the overall dataset structure.
 
-**Training accuracy v/s validation accuracy :** 
+<u><h2>Training accuracy v/s validation accuracy :</h2></u>
 
 As we know , training accuracy measures how well a model performs on the data it was trained on, indicating its ability to learn patterns in the training set whereas validation accuracy evaluates the model's performance on unseen data, providing insight into its ability to generalize it . Both metrics are essential for assessing and improving the model's performance as training accuracy helps monitor learning progress and fit to training data, while validation accuracy ensures the model's ability to generalize to new instances. By considering both metrics, we can make informed decisions about model selection, optimization, and generalization capabilities.
 
@@ -25,7 +25,7 @@ From a model perspective, this representation suggests that the model has not en
 
 This representation is indicative of a well-trained model that can be relied upon for making predictions on new, unseen data. It reassures us that the model has learned meaningful patterns from the training set and can effectively generalize to new instances. However, further analysis and evaluation are necessary to assess the model's overall performance and make informed decisions about its deployment.
 
-**Training Loss v/s Validation Loss:**
+<u><h2>Training Loss v/s Validation Loss:</h2></u>
 
 Training loss measures the error between the model's predictions and the true labels during the training process and also indicates how well the model is fitting the training data which helps in assessing the convergence and progress of the model's learning. 
 
@@ -42,7 +42,7 @@ The fact that both the training loss and validation loss start from high values 
 
 From a model perspective, this representation indicates that the model is not encountering overfitting, where it would perform well on the training data but poorly on unseen data. The overlapping nature of the loss values implies a balanced learning process, where the model learns meaningful patterns from the training set while maintaining good generalization performance.
 
-**Confusion Matrix**
+<u><h2>Confusion Matrix</h2></u>
 
 A confusion matrix is a tabular representation that summarizes the performance of a classification model. It provides insights into the model's predictive accuracy by displaying the counts of true positive (TP), true negative (TN), false positive (FP), and false negative (FN) predictions.
 
@@ -58,13 +58,13 @@ Notably, the barely visible cells for misclassifications suggest that the model 
 
 
 
-**Accuracy v/s precision :**
+<u><h2>Accuracy v/s precision :</h2></u>
 
 Accuracy refers to the degree of closeness between a predicted value and the actual value. It is a measure of how correct the model's predictions are where precision, on the other hand, quantifies the consistency and reproducibility of the model's predictions. It assesses how well the model produces similar results for repeated experiments or runs. Achieving high accuracy means minimizing the gap between predicted and actual values, while high precision indicates low variability in the model's outputs. Both accuracy and precision are important metrics for evaluating the performance and reliability of data science models.
 
 The bar plot represents the comparison between the accuracy and precision of our model. The plot displays two bars, one for accuracy and one for precision. As we can see that both bars indicate values around 90-95%, suggesting a similar level of performance for both metrics. This indicates that our ML model is consistently producing correct predictions (high accuracy) and demonstrating low variability in its results (high precision). The graph shows that our model is performing well in terms of both accuracy and precision, which is a positive outcome in evaluating its overall effectiveness.
 
-**\*distribution of predicted probabilities\***
+<u><h2>distribution of predicted probabilities:</h2></u>
 
 The distribution of predicted probabilities is a fundamental concept in statistical modeling and machine learning. When we build predictive models, such as logistic regression or classification algorithms, the models assign probabilities to different outcomes or classes. The distribution of predicted probabilities refers to the pattern or spread of these assigned probabilities across the dataset which provides us with the insights into the confidence and uncertainty associated with the model's predictions. Understanding these distributions helps assess the model's calibration and can be valuable for decision-making or setting thresholds for classification tasks. Analyzing the distribution of predicted probabilities aids in interpreting and evaluating the performance and reliability of predictive models.
 
