@@ -5,8 +5,7 @@ __**EDA on Brain Tumor detection using Machine Learning**__
 
 In the field of machine learning and computer vision, the accurate division of datasets into training and testing sets is crucial for developing robust and reliable models. This process involves randomly allocating a portion of the available data for training the model, while reserving another portion for evaluating its performance. 
 
-
-
+![download (3)](https://github.com/restlesshornet/MRI-Brain-Tumor-Diagnosis/assets/88588444/feeeee51-75fc-47cc-b28f-738b09b46cae)
 
 The pie chart presented above provides a clear visual representation of the dataset division into two distinct sets: the training set and the testing set. The chart demonstrates that the dataset has been divided in a ratio of 90:10, with the training set occupying approximately 90% of the chart and the testing set occupying the remaining 10%. This graphical representation offers a concise overview of the dataset composition and highlights the significance of each set in the overall dataset structure.
 
